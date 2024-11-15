@@ -8,8 +8,8 @@ import psycopg2
 def conectar_db():
     return psycopg2.connect(
         dbname="inventory_db",  # Nombre de la base de datos
-        user="postgres",       # Nombre de usuario de PostgreSQL
-        password="sa654321",  # Tu contraseña de PostgreSQL
+        user=".......",       # Nombre de usuario de PostgreSQL
+        password=".......",  # Tu contraseña de PostgreSQL
         host="localhost",       # Dirección del servidor
         port="5432"             # Puerto de PostgreSQL
     )
